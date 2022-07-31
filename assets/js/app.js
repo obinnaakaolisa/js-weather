@@ -4,8 +4,6 @@ const details  = document.querySelector('.details');
 const time     = document.querySelector('img.time');
 const icon     = document.querySelector('.icon img');
 
-
-
 const updateUI = (data) => {
     const cityDetails = data.cityDetails;
     const weatherDetails = data.weatherDetails;
